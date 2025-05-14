@@ -364,7 +364,7 @@ if selected == "Filters":
     au_range = st.slider("Astronomical Units (AU)", min_value=0.0, max_value=1.0, value=(0.0, 0.05))
 
     # Lunar Distance Range
-    lunar_range = st.slider("Lunar Distance (LD)", min_value=0.0, max_value=10.0, value=(0.0, 1.0))
+    lunar_range = st.slider("Lunar Distance (LD)", min_value=0.0, max_value=200.0, value=(0.0, 200.0))
 
     # Relative Velocity Range
     velocity_range = st.slider("Relative Velocity (km/h)", min_value=0.0, max_value=150000.0, value=(0.0, 50000.0))
